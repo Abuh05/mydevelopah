@@ -9,11 +9,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #FFFF00;
+  color: #ffb03b;
 }
 
 a:hover {
-  color: #FFFF00;
+  color: #ffb03b;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #FFFF00;
+  border: 6px solid#ffb03b;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #f5f50c;
+  background: #ffb03b;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #f5f50c;
+  background: #ffb03b;
   color: #fff;
 }
 .back-to-top.active {
@@ -96,44 +96,18 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  padding: 0;
-  font-size: 15px;
-  height: 50px;
-  transition: all 0.5s;
-  background: rgba(26, 24, 22, 0.8);
-  z-index: 996;
-  color: rgba(255, 255, 255, 0.7);
-}
-#topbar.topbar-transparent {
-  background: transparent;
-}
-#topbar.topbar-scrolled {
-  top: -50px;
-}
-#topbar i {
-  color: #f5f50c;
-  line-height: 0;
-}
-#topbar i span {
-  color: #fff;
-  font-style: normal;
-  padding-left: 5px;
-}
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  top: 50px;
+  /* top: 10px; */
   height: 70px;
   z-index: 997;
   transition: all 0.5s;
   padding: 10px 0;
-  background: rgba(26, 24, 22, 0.85);
+  background: rgba(141, 97, 16, 0.85);
+  box-shadow: 5px 15px 15px rgba(199, 199, 199, 0.1);
 }
 #header.header-transparent {
   background: transparent;
@@ -176,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
 }
 .book-a-table-btn:hover {
-  background: #f5f50c;
+  background: #ffb03b;
   color: #fff;
 }
 @media (max-width: 992px) {
@@ -223,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #FFFF00;
+  color: #ffb03b;
 }
 .navbar .dropdown ul {
   display: block;
@@ -253,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #FFFF00;
+  color: #ffb03b;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -336,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #433f39;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #FFFF00;
+  color: #ffb03b;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -362,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #FFFF00;
+  color: #ffb03b;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -415,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins";
 }
 #hero h2 span {
-  color: #FFFF00;
+  color: #ffb03b;
 }
 #hero p {
   width: 50%;
@@ -484,10 +458,10 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   color: #fff;
-  border: 2px solid #FFFF00;
+  border: 2px solid #ffb03b;
 }
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #FFFF00;
+  background: #ffb03b;
   color: #fff;
 }
 @media (max-width: 768px) {
@@ -526,7 +500,7 @@ section {
   color: #5f5950;
 }
 .section-title h2 span {
-  color: #FFFF00;
+  color: #ffb03b;
 }
 .section-title p {
   margin: 15px auto 0 auto;
@@ -627,7 +601,7 @@ section {
 }
 .about .content ul i {
   font-size: 20px;
-  color: #FFFF00;
+  color: #ffb03b;
   position: absolute;
   left: 0;
   top: 2px;
@@ -645,7 +619,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#FFFF00 50%, #FFFF00 52%);
+  background: radial-gradient(#ffb03b 50%, #ffb03b 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -684,13 +658,13 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid #FFFF00;
+  border: 5px solid #ffb03b;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 .about .play-btn:hover::after {
-  border-left: 15px solid #FFFF00;
+  border-left: 15px solid #ffb03b;
   transform: scale(20);
 }
 .about .play-btn:hover::before {
@@ -750,7 +724,7 @@ section {
 # Whu Us
 --------------------------------------------------------------*/
 .why-us .box {
-  padding: 50px 30px;
+  padding: 20px 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
   height: 100%;
@@ -759,7 +733,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #FFFF00;
+  color: #ffb03b;
 }
 .why-us .box h4 {
   font-size: 24px;
@@ -775,9 +749,9 @@ section {
   padding: 0;
 }
 .why-us .box:hover {
-  background: rgba(0, 0, 0, 0.7);
+  background: #ffb03b;
   padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  /* box-shadow: 20px 15px 30px #ffb03b; */
 }
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
